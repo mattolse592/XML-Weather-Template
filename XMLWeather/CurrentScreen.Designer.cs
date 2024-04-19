@@ -43,6 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lastUpdateLabel = new System.Windows.Forms.Label();
+            this.conditionLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,12 +61,13 @@
             // 
             // currentOutput
             // 
+            this.currentOutput.AutoSize = true;
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentOutput.ForeColor = System.Drawing.Color.White;
             this.currentOutput.Location = new System.Drawing.Point(71, 118);
             this.currentOutput.Name = "currentOutput";
-            this.currentOutput.Size = new System.Drawing.Size(100, 100);
+            this.currentOutput.Size = new System.Drawing.Size(0, 73);
             this.currentOutput.TabIndex = 28;
             this.currentOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -113,11 +115,12 @@
             this.searchLabel.Size = new System.Drawing.Size(126, 38);
             this.searchLabel.TabIndex = 44;
             this.searchLabel.Text = "Search";
+            this.searchLabel.Click += new System.EventHandler(this.searchLabel_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(215, 118);
+            this.pictureBox1.Location = new System.Drawing.Point(215, 107);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -216,11 +219,23 @@
             this.lastUpdateLabel.Text = "label4";
             this.lastUpdateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // conditionLabel
+            // 
+            this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionLabel.ForeColor = System.Drawing.Color.White;
+            this.conditionLabel.Location = new System.Drawing.Point(215, 220);
+            this.conditionLabel.Name = "conditionLabel";
+            this.conditionLabel.Size = new System.Drawing.Size(150, 37);
+            this.conditionLabel.TabIndex = 54;
+            this.conditionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.conditionLabel);
             this.Controls.Add(this.lastUpdateLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -241,6 +256,7 @@
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.CurrentScreen_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -260,5 +276,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lastUpdateLabel;
+        private System.Windows.Forms.Label conditionLabel;
     }
 }

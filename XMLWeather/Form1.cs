@@ -27,7 +27,7 @@ namespace XMLWeather
             ExtractCurrent();
 
             // open weather screen for todays weather
-            ForecastScreen cs = new ForecastScreen();
+            CurrentScreen cs = new CurrentScreen();
             this.Controls.Add(cs);
         }
 
@@ -35,7 +35,8 @@ namespace XMLWeather
         {
             XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/forecast/daily?q=Stratford,CA&mode=xml&units=metric&cnt=7&appid=3f2e224b815c0ed45524322e145149f0");
 
-            while (reader.Read())
+            //get information for 6 days
+            for (int i = 0; i < 6; i++)  //while (reader.Read())
             {
                 // create a day object
                 Day d = new Day();
@@ -44,12 +45,14 @@ namespace XMLWeather
                 reader.ReadToFollowing("time");
                 d.date = reader.GetAttribute("day");
 
+                reader.ReadToFollowing("symbol");
+                d.icon = reader.GetAttribute("var");
+
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
                 d.tempHigh = reader.GetAttribute("max");
 
-                reader.ReadToFollowing("symbol");
-                d.icon = reader.GetAttribute("var");
+
                 // if day object not null add to the days list
                 days.Add(d);
             }
@@ -66,7 +69,7 @@ namespace XMLWeather
 
             reader.ReadToFollowing("timezone");
             days[0].timezone = reader.ReadString();
-          
+
 
             reader.ReadToFollowing("sun");
             days[0].sunRise = reader.GetAttribute("rise");

@@ -34,35 +34,35 @@
             this.label5 = new System.Windows.Forms.Label();
             this.date1Label = new System.Windows.Forms.Label();
             this.icon1 = new System.Windows.Forms.PictureBox();
-            this.min1 = new System.Windows.Forms.Label();
-            this.max1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.min1Label = new System.Windows.Forms.Label();
+            this.max1Label = new System.Windows.Forms.Label();
+            this.max4Label = new System.Windows.Forms.Label();
+            this.min4Label = new System.Windows.Forms.Label();
+            this.icon4 = new System.Windows.Forms.PictureBox();
+            this.date4Label = new System.Windows.Forms.Label();
+            this.max2Label = new System.Windows.Forms.Label();
+            this.min2Label = new System.Windows.Forms.Label();
+            this.icon2 = new System.Windows.Forms.PictureBox();
+            this.date2Label = new System.Windows.Forms.Label();
+            this.max3Label = new System.Windows.Forms.Label();
+            this.min3Label = new System.Windows.Forms.Label();
+            this.icon3 = new System.Windows.Forms.PictureBox();
+            this.date3Label = new System.Windows.Forms.Label();
+            this.max5Label = new System.Windows.Forms.Label();
+            this.min5Label = new System.Windows.Forms.Label();
+            this.icon5 = new System.Windows.Forms.PictureBox();
+            this.date5Label = new System.Windows.Forms.Label();
+            this.max6Label = new System.Windows.Forms.Label();
+            this.min6Label = new System.Windows.Forms.Label();
+            this.icon6 = new System.Windows.Forms.PictureBox();
+            this.date6Label = new System.Windows.Forms.Label();
             this.lastUpdateLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.icon1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon6)).BeginInit();
             this.SuspendLayout();
             // 
             // searchLabel
@@ -75,6 +75,7 @@
             this.searchLabel.Size = new System.Drawing.Size(126, 38);
             this.searchLabel.TabIndex = 73;
             this.searchLabel.Text = "Search";
+            this.searchLabel.Click += new System.EventHandler(this.searchLabel_Click);
             // 
             // forecastLabel
             // 
@@ -132,259 +133,259 @@
             this.icon1.TabIndex = 75;
             this.icon1.TabStop = false;
             // 
-            // min1
+            // min1Label
             // 
-            this.min1.BackColor = System.Drawing.Color.Transparent;
-            this.min1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.min1.ForeColor = System.Drawing.Color.White;
-            this.min1.Location = new System.Drawing.Point(340, 88);
-            this.min1.Name = "min1";
-            this.min1.Size = new System.Drawing.Size(50, 50);
-            this.min1.TabIndex = 76;
-            this.min1.Text = "min1";
-            this.min1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.min1Label.BackColor = System.Drawing.Color.Transparent;
+            this.min1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min1Label.ForeColor = System.Drawing.Color.White;
+            this.min1Label.Location = new System.Drawing.Point(340, 88);
+            this.min1Label.Name = "min1Label";
+            this.min1Label.Size = new System.Drawing.Size(50, 50);
+            this.min1Label.TabIndex = 76;
+            this.min1Label.Text = "min1";
+            this.min1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // max1
+            // max1Label
             // 
-            this.max1.BackColor = System.Drawing.Color.Transparent;
-            this.max1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.max1.ForeColor = System.Drawing.Color.White;
-            this.max1.Location = new System.Drawing.Point(280, 88);
-            this.max1.Name = "max1";
-            this.max1.Size = new System.Drawing.Size(50, 50);
-            this.max1.TabIndex = 77;
-            this.max1.Text = "max1";
-            this.max1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.max1Label.BackColor = System.Drawing.Color.Transparent;
+            this.max1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max1Label.ForeColor = System.Drawing.Color.White;
+            this.max1Label.Location = new System.Drawing.Point(280, 88);
+            this.max1Label.Name = "max1Label";
+            this.max1Label.Size = new System.Drawing.Size(50, 50);
+            this.max1Label.TabIndex = 77;
+            this.max1Label.Text = "max1";
+            this.max1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // max4Label
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(280, 325);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 50);
-            this.label1.TabIndex = 81;
-            this.label1.Text = "label1";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.max4Label.BackColor = System.Drawing.Color.Transparent;
+            this.max4Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max4Label.ForeColor = System.Drawing.Color.White;
+            this.max4Label.Location = new System.Drawing.Point(280, 325);
+            this.max4Label.Name = "max4Label";
+            this.max4Label.Size = new System.Drawing.Size(50, 50);
+            this.max4Label.TabIndex = 81;
+            this.max4Label.Text = "max 4";
+            this.max4Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // min4Label
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(340, 325);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 50);
-            this.label2.TabIndex = 80;
-            this.label2.Text = "label2";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.min4Label.BackColor = System.Drawing.Color.Transparent;
+            this.min4Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min4Label.ForeColor = System.Drawing.Color.White;
+            this.min4Label.Location = new System.Drawing.Point(340, 325);
+            this.min4Label.Name = "min4Label";
+            this.min4Label.Size = new System.Drawing.Size(50, 50);
+            this.min4Label.TabIndex = 80;
+            this.min4Label.Text = "min 4";
+            this.min4Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // icon4
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(224, 325);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 79;
-            this.pictureBox1.TabStop = false;
+            this.icon4.BackColor = System.Drawing.Color.Transparent;
+            this.icon4.Location = new System.Drawing.Point(224, 325);
+            this.icon4.Name = "icon4";
+            this.icon4.Size = new System.Drawing.Size(50, 50);
+            this.icon4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.icon4.TabIndex = 79;
+            this.icon4.TabStop = false;
             // 
-            // label4
+            // date4Label
             // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(10, 325);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(200, 50);
-            this.label4.TabIndex = 78;
-            this.label4.Text = "date1";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.date4Label.BackColor = System.Drawing.Color.Transparent;
+            this.date4Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date4Label.ForeColor = System.Drawing.Color.White;
+            this.date4Label.Location = new System.Drawing.Point(10, 325);
+            this.date4Label.Name = "date4Label";
+            this.date4Label.Size = new System.Drawing.Size(200, 50);
+            this.date4Label.TabIndex = 78;
+            this.date4Label.Text = "date4";
+            this.date4Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // max2Label
             // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(280, 169);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 50);
-            this.label6.TabIndex = 85;
-            this.label6.Text = "label6";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.max2Label.BackColor = System.Drawing.Color.Transparent;
+            this.max2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max2Label.ForeColor = System.Drawing.Color.White;
+            this.max2Label.Location = new System.Drawing.Point(280, 169);
+            this.max2Label.Name = "max2Label";
+            this.max2Label.Size = new System.Drawing.Size(50, 50);
+            this.max2Label.TabIndex = 85;
+            this.max2Label.Text = "max 2";
+            this.max2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
+            // min2Label
             // 
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(340, 169);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 50);
-            this.label7.TabIndex = 84;
-            this.label7.Text = "label7";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.min2Label.BackColor = System.Drawing.Color.Transparent;
+            this.min2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min2Label.ForeColor = System.Drawing.Color.White;
+            this.min2Label.Location = new System.Drawing.Point(340, 169);
+            this.min2Label.Name = "min2Label";
+            this.min2Label.Size = new System.Drawing.Size(50, 50);
+            this.min2Label.TabIndex = 84;
+            this.min2Label.Text = "min 2";
+            this.min2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox2
+            // icon2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Location = new System.Drawing.Point(224, 169);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 83;
-            this.pictureBox2.TabStop = false;
+            this.icon2.BackColor = System.Drawing.Color.Transparent;
+            this.icon2.Location = new System.Drawing.Point(224, 169);
+            this.icon2.Name = "icon2";
+            this.icon2.Size = new System.Drawing.Size(50, 50);
+            this.icon2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.icon2.TabIndex = 83;
+            this.icon2.TabStop = false;
             // 
-            // label8
+            // date2Label
             // 
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(10, 169);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(200, 50);
-            this.label8.TabIndex = 82;
-            this.label8.Text = "date1";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.date2Label.BackColor = System.Drawing.Color.Transparent;
+            this.date2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date2Label.ForeColor = System.Drawing.Color.White;
+            this.date2Label.Location = new System.Drawing.Point(10, 169);
+            this.date2Label.Name = "date2Label";
+            this.date2Label.Size = new System.Drawing.Size(200, 50);
+            this.date2Label.TabIndex = 82;
+            this.date2Label.Text = "date2";
+            this.date2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // max3Label
             // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(280, 250);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 50);
-            this.label9.TabIndex = 89;
-            this.label9.Text = "label9";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.max3Label.BackColor = System.Drawing.Color.Transparent;
+            this.max3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max3Label.ForeColor = System.Drawing.Color.White;
+            this.max3Label.Location = new System.Drawing.Point(280, 250);
+            this.max3Label.Name = "max3Label";
+            this.max3Label.Size = new System.Drawing.Size(50, 50);
+            this.max3Label.TabIndex = 89;
+            this.max3Label.Text = "max 3";
+            this.max3Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // min3Label
             // 
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(340, 250);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(50, 50);
-            this.label10.TabIndex = 88;
-            this.label10.Text = "label10";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.min3Label.BackColor = System.Drawing.Color.Transparent;
+            this.min3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min3Label.ForeColor = System.Drawing.Color.White;
+            this.min3Label.Location = new System.Drawing.Point(340, 250);
+            this.min3Label.Name = "min3Label";
+            this.min3Label.Size = new System.Drawing.Size(50, 50);
+            this.min3Label.TabIndex = 88;
+            this.min3Label.Text = "min 3";
+            this.min3Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox3
+            // icon3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Location = new System.Drawing.Point(224, 250);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 87;
-            this.pictureBox3.TabStop = false;
+            this.icon3.BackColor = System.Drawing.Color.Transparent;
+            this.icon3.Location = new System.Drawing.Point(224, 250);
+            this.icon3.Name = "icon3";
+            this.icon3.Size = new System.Drawing.Size(50, 50);
+            this.icon3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.icon3.TabIndex = 87;
+            this.icon3.TabStop = false;
             // 
-            // label11
+            // date3Label
             // 
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(10, 250);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(200, 50);
-            this.label11.TabIndex = 86;
-            this.label11.Text = "date1";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.date3Label.BackColor = System.Drawing.Color.Transparent;
+            this.date3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date3Label.ForeColor = System.Drawing.Color.White;
+            this.date3Label.Location = new System.Drawing.Point(10, 250);
+            this.date3Label.Name = "date3Label";
+            this.date3Label.Size = new System.Drawing.Size(200, 50);
+            this.date3Label.TabIndex = 86;
+            this.date3Label.Text = "date3";
+            this.date3Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label12
+            // max5Label
             // 
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(280, 406);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(50, 50);
-            this.label12.TabIndex = 93;
-            this.label12.Text = "label12";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.max5Label.BackColor = System.Drawing.Color.Transparent;
+            this.max5Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max5Label.ForeColor = System.Drawing.Color.White;
+            this.max5Label.Location = new System.Drawing.Point(280, 406);
+            this.max5Label.Name = "max5Label";
+            this.max5Label.Size = new System.Drawing.Size(50, 50);
+            this.max5Label.TabIndex = 93;
+            this.max5Label.Text = "max 5";
+            this.max5Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label13
+            // min5Label
             // 
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(340, 406);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(50, 50);
-            this.label13.TabIndex = 92;
-            this.label13.Text = "label13";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.min5Label.BackColor = System.Drawing.Color.Transparent;
+            this.min5Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min5Label.ForeColor = System.Drawing.Color.White;
+            this.min5Label.Location = new System.Drawing.Point(340, 406);
+            this.min5Label.Name = "min5Label";
+            this.min5Label.Size = new System.Drawing.Size(50, 50);
+            this.min5Label.TabIndex = 92;
+            this.min5Label.Text = "min 5";
+            this.min5Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox4
+            // icon5
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Location = new System.Drawing.Point(224, 406);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 91;
-            this.pictureBox4.TabStop = false;
+            this.icon5.BackColor = System.Drawing.Color.Transparent;
+            this.icon5.Location = new System.Drawing.Point(224, 406);
+            this.icon5.Name = "icon5";
+            this.icon5.Size = new System.Drawing.Size(50, 50);
+            this.icon5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.icon5.TabIndex = 91;
+            this.icon5.TabStop = false;
             // 
-            // label14
+            // date5Label
             // 
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(10, 406);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(200, 50);
-            this.label14.TabIndex = 90;
-            this.label14.Text = "date1";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.date5Label.BackColor = System.Drawing.Color.Transparent;
+            this.date5Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date5Label.ForeColor = System.Drawing.Color.White;
+            this.date5Label.Location = new System.Drawing.Point(10, 406);
+            this.date5Label.Name = "date5Label";
+            this.date5Label.Size = new System.Drawing.Size(200, 50);
+            this.date5Label.TabIndex = 90;
+            this.date5Label.Text = "date5";
+            this.date5Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label15
+            // max6Label
             // 
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(280, 491);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 50);
-            this.label15.TabIndex = 97;
-            this.label15.Text = "label15";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.max6Label.BackColor = System.Drawing.Color.Transparent;
+            this.max6Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max6Label.ForeColor = System.Drawing.Color.White;
+            this.max6Label.Location = new System.Drawing.Point(280, 491);
+            this.max6Label.Name = "max6Label";
+            this.max6Label.Size = new System.Drawing.Size(50, 50);
+            this.max6Label.TabIndex = 97;
+            this.max6Label.Text = "max 6";
+            this.max6Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // min6Label
             // 
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(340, 491);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(50, 50);
-            this.label16.TabIndex = 96;
-            this.label16.Text = "label16";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.min6Label.BackColor = System.Drawing.Color.Transparent;
+            this.min6Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min6Label.ForeColor = System.Drawing.Color.White;
+            this.min6Label.Location = new System.Drawing.Point(340, 491);
+            this.min6Label.Name = "min6Label";
+            this.min6Label.Size = new System.Drawing.Size(50, 50);
+            this.min6Label.TabIndex = 96;
+            this.min6Label.Text = "min 6";
+            this.min6Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox5
+            // icon6
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Location = new System.Drawing.Point(224, 491);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 95;
-            this.pictureBox5.TabStop = false;
+            this.icon6.BackColor = System.Drawing.Color.Transparent;
+            this.icon6.Location = new System.Drawing.Point(224, 491);
+            this.icon6.Name = "icon6";
+            this.icon6.Size = new System.Drawing.Size(50, 50);
+            this.icon6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.icon6.TabIndex = 95;
+            this.icon6.TabStop = false;
             // 
-            // label17
+            // date6Label
             // 
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(10, 491);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(200, 50);
-            this.label17.TabIndex = 94;
-            this.label17.Text = "date1";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.date6Label.BackColor = System.Drawing.Color.Transparent;
+            this.date6Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date6Label.ForeColor = System.Drawing.Color.White;
+            this.date6Label.Location = new System.Drawing.Point(10, 491);
+            this.date6Label.Name = "date6Label";
+            this.date6Label.Size = new System.Drawing.Size(200, 50);
+            this.date6Label.TabIndex = 94;
+            this.date6Label.Text = "date6";
+            this.date6Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lastUpdateLabel
             // 
@@ -404,28 +405,28 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.lastUpdateLabel);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.max1);
-            this.Controls.Add(this.min1);
+            this.Controls.Add(this.max6Label);
+            this.Controls.Add(this.min6Label);
+            this.Controls.Add(this.icon6);
+            this.Controls.Add(this.date6Label);
+            this.Controls.Add(this.max5Label);
+            this.Controls.Add(this.min5Label);
+            this.Controls.Add(this.icon5);
+            this.Controls.Add(this.date5Label);
+            this.Controls.Add(this.max3Label);
+            this.Controls.Add(this.min3Label);
+            this.Controls.Add(this.icon3);
+            this.Controls.Add(this.date3Label);
+            this.Controls.Add(this.max2Label);
+            this.Controls.Add(this.min2Label);
+            this.Controls.Add(this.icon2);
+            this.Controls.Add(this.date2Label);
+            this.Controls.Add(this.max4Label);
+            this.Controls.Add(this.min4Label);
+            this.Controls.Add(this.icon4);
+            this.Controls.Add(this.date4Label);
+            this.Controls.Add(this.max1Label);
+            this.Controls.Add(this.min1Label);
             this.Controls.Add(this.icon1);
             this.Controls.Add(this.date1Label);
             this.Controls.Add(this.searchLabel);
@@ -435,11 +436,11 @@
             this.Name = "ForecastScreen";
             this.Size = new System.Drawing.Size(400, 650);
             ((System.ComponentModel.ISupportInitialize)(this.icon1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -451,28 +452,28 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label date1Label;
         private System.Windows.Forms.PictureBox icon1;
-        private System.Windows.Forms.Label min1;
-        private System.Windows.Forms.Label max1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label min1Label;
+        private System.Windows.Forms.Label max1Label;
+        private System.Windows.Forms.Label max4Label;
+        private System.Windows.Forms.Label min4Label;
+        private System.Windows.Forms.PictureBox icon4;
+        private System.Windows.Forms.Label date4Label;
+        private System.Windows.Forms.Label max2Label;
+        private System.Windows.Forms.Label min2Label;
+        private System.Windows.Forms.PictureBox icon2;
+        private System.Windows.Forms.Label date2Label;
+        private System.Windows.Forms.Label max3Label;
+        private System.Windows.Forms.Label min3Label;
+        private System.Windows.Forms.PictureBox icon3;
+        private System.Windows.Forms.Label date3Label;
+        private System.Windows.Forms.Label max5Label;
+        private System.Windows.Forms.Label min5Label;
+        private System.Windows.Forms.PictureBox icon5;
+        private System.Windows.Forms.Label date5Label;
+        private System.Windows.Forms.Label max6Label;
+        private System.Windows.Forms.Label min6Label;
+        private System.Windows.Forms.PictureBox icon6;
+        private System.Windows.Forms.Label date6Label;
         private System.Windows.Forms.Label lastUpdateLabel;
     }
 }

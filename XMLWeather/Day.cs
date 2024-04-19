@@ -12,6 +12,7 @@ namespace XMLWeather
 
         public Day()
         {
+            //set all values to null
             date = currentTemp = currentTime = condition = location = tempHigh = tempLow
                 = windSpeed = windDirection = precipitation = visibility = sunRise = sunSet = icon = timezone = "";
         }
