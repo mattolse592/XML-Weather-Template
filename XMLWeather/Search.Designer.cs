@@ -32,6 +32,8 @@
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.searchButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // searchLabel
@@ -80,11 +82,33 @@
             this.label5.Text = "____________________________";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox1.Location = new System.Drawing.Point(34, 159);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(299, 29);
+            this.textBox1.TabIndex = 49;
+            this.textBox1.Text = "Search, ie. Stratford CA";
+            // 
+            // searchButton
+            // 
+            this.searchButton.Location = new System.Drawing.Point(340, 159);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(29, 29);
+            this.searchButton.TabIndex = 50;
+            this.searchButton.Text = "🔎";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.searchButton);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.searchLabel);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
@@ -92,6 +116,7 @@
             this.Name = "Search";
             this.Size = new System.Drawing.Size(400, 650);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -101,5 +126,7 @@
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button searchButton;
     }
 }

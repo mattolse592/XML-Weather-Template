@@ -253,6 +253,7 @@
             this.Controls.Add(this.label5);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(400, 650);
+            this.Load += new System.EventHandler(this.CurrentScreen_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.CurrentScreen_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

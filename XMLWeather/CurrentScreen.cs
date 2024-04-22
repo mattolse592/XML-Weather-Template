@@ -34,14 +34,15 @@ namespace XMLWeather
 
             conditionLabel.Text = (Convert.ToString(Form1.days[0].condition));
 
-            realLastUpdate = Convert.ToString(AdjustTimeZone(Form1.lastUpdate, Form1.days[0].timezone));
+            //14400 is the time conversion for Stratford
+            realLastUpdate = Convert.ToString(AdjustTimeZone(Form1.lastUpdate, "-14400"));
             lastUpdateLabel.Text = "Last Update: " + realLastUpdate.Substring(0, 10) + " " + realLastUpdate.Substring(10, 8);
 
             //change background color and icon
             switch (Form1.days[0].icon)
             {
                 case "01d":
-                    this.BackColor = Color.Yellow;
+                    this.BackColor = Color.Goldenrod;
                     pictureBox1.Image = Properties.Resources._01d;
                     break;
                 case "02d":
@@ -69,7 +70,7 @@ namespace XMLWeather
                     pictureBox1.Image = Properties.Resources._10d;
                     break;
                 case "11d":
-                    this.BackColor = Color.Yellow;
+                    this.BackColor = Color.Goldenrod;
                     pictureBox1.Image = Properties.Resources._11d;
                     break;
                 case "13d":
@@ -127,6 +128,9 @@ namespace XMLWeather
 
         }
 
+        private void CurrentScreen_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

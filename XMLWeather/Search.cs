@@ -23,7 +23,7 @@ namespace XMLWeather
             switch (Form1.days[0].icon)
             {
                 case "01d":
-                    this.BackColor = Color.Yellow;
+                    this.BackColor = Color.Goldenrod;
                     break;
                 case "02d":
                     this.BackColor = Color.Gold;
@@ -44,7 +44,7 @@ namespace XMLWeather
                     this.BackColor = Color.DarkCyan;
                     break;
                 case "11d":
-                    this.BackColor = Color.Yellow;
+                    this.BackColor = Color.Goldenrod;
                     break;
                 case "13d":
                     this.BackColor = Color.Gray;
@@ -69,6 +69,32 @@ namespace XMLWeather
 
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Form1.searchPlace = textBox1.Text;
+
+                //Form1.days.Clear();
+
+                Form1.ExtractForecast();
+                Form1.ExtractCurrent();
+
+                Form f = this.FindForm();
+                f.Controls.Remove(this);
+
+                CurrentScreen fs = new CurrentScreen();
+                f.Controls.Add(fs);
+            } catch
+            {
+                //if there is an error searching for the place
+                textBox1.ForeColor = Color.Red;
+                textBox1.Text = "Location not found";
+            }
+
+
         }
     }
 }

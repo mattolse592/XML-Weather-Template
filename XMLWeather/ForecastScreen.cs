@@ -111,7 +111,7 @@ namespace XMLWeather
             switch (Form1.days[0].icon)
             {
                 case "01d":
-                    this.BackColor = Color.Yellow;
+                    this.BackColor = Color.Goldenrod;
                     break;
                 case "02d":
                     this.BackColor = Color.Gold;
@@ -132,7 +132,7 @@ namespace XMLWeather
                     this.BackColor = Color.DarkCyan;
                     break;
                 case "11d":
-                    this.BackColor = Color.Yellow;
+                    this.BackColor = Color.Goldenrod;
                     break;
                 case "13d":
                     this.BackColor = Color.Gray;
