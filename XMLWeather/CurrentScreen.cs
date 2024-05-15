@@ -42,30 +42,37 @@ namespace XMLWeather
             switch (Form1.days[0].icon)
             {
                 case "01d":
+                    this.BackgroundImage = Properties.Resources._01db;
                     this.BackColor = Color.Goldenrod;
                     pictureBox1.Image = Properties.Resources._01d;
                     break;
                 case "02d":
+                    this.BackgroundImage = Properties.Resources._02db;
                     this.BackColor = Color.Gold;
                     pictureBox1.Image = Properties.Resources._02d;
                     break;
                 case "03d":
+                    this.BackgroundImage = Properties.Resources._03db;
                     this.BackColor = Color.LightSteelBlue;
-                    pictureBox1.Image = Properties.Resources._03d;
+                    pictureBox1.Image = Properties.Resources._03db;
                     break;
                 case "04d":
+                    this.BackgroundImage = Properties.Resources._03db;
                     this.BackColor = Color.Gray;
                     pictureBox1.Image = Properties.Resources._04d;
                     break;
                 case "04n":
+                    this.BackgroundImage = Properties.Resources._03db;
                     this.BackColor = Color.Gray;
                     pictureBox1.Image = Properties.Resources._04d;
                     break;
                 case "09d":
+                    this.BackgroundImage = Properties.Resources._09db;
                     this.BackColor = Color.DarkGray;
                     pictureBox1.Image = Properties.Resources._09d;
                     break;
                 case "10d":
+                    this.BackgroundImage = Properties.Resources._10db;
                     this.BackColor = Color.DarkCyan;
                     pictureBox1.Image = Properties.Resources._10d;
                     break;
@@ -74,6 +81,7 @@ namespace XMLWeather
                     pictureBox1.Image = Properties.Resources._11d;
                     break;
                 case "13d":
+                    this.BackgroundImage = Properties.Resources._13db;
                     this.BackColor = Color.Gray;
                     pictureBox1.Image = Properties.Resources._13d;
                     break;

@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.searchButton = new System.Windows.Forms.Button();
+            this.searchButton = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // searchLabel
@@ -91,16 +91,18 @@
             this.textBox1.Size = new System.Drawing.Size(299, 29);
             this.textBox1.TabIndex = 49;
             this.textBox1.Text = "Search, ie. Stratford CA";
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
             // 
             // searchButton
             // 
-            this.searchButton.Location = new System.Drawing.Point(340, 159);
+            this.searchButton.BackColor = System.Drawing.Color.Silver;
+            this.searchButton.Location = new System.Drawing.Point(351, 159);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(29, 29);
-            this.searchButton.TabIndex = 50;
-            this.searchButton.Text = "🔎";
-            this.searchButton.UseVisualStyleBackColor = true;
-            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            this.searchButton.TabIndex = 51;
+            this.searchButton.Text = "🔍";
+            this.searchButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.searchButton.Click += new System.EventHandler(this.label1_Click);
             // 
             // Search
             // 
@@ -115,6 +117,8 @@
             this.Controls.Add(this.label5);
             this.Name = "Search";
             this.Size = new System.Drawing.Size(400, 650);
+//            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Search_KeyDown);
+         //   this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Search_PreviewKeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,6 +131,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button searchButton;
+        private System.Windows.Forms.Label searchButton;
     }
 }

@@ -73,6 +73,16 @@ namespace XMLWeather.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _01db {
+            get {
+                object obj = ResourceManager.GetObject("01db", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _02d {
             get {
                 object obj = ResourceManager.GetObject("02d", resourceCulture);
@@ -83,9 +93,29 @@ namespace XMLWeather.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _02db {
+            get {
+                object obj = ResourceManager.GetObject("02db", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _03d {
             get {
                 object obj = ResourceManager.GetObject("03d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _03db {
+            get {
+                object obj = ResourceManager.GetObject("03db", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +143,29 @@ namespace XMLWeather.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _09db {
+            get {
+                object obj = ResourceManager.GetObject("09db", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _10d {
             get {
                 object obj = ResourceManager.GetObject("10d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _10db {
+            get {
+                object obj = ResourceManager.GetObject("10db", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +193,16 @@ namespace XMLWeather.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _13db {
+            get {
+                object obj = ResourceManager.GetObject("13db", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _50d {
             get {
                 object obj = ResourceManager.GetObject("50d", resourceCulture);
@@ -151,12 +211,32 @@ namespace XMLWeather.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap Rain3 {
+        internal static byte[] dd93ba80_1a74_4559_b6cf_8bd71cd5a9a81 {
             get {
-                object obj = ResourceManager.GetObject("Rain3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("dd93ba80_1a74_4559_b6cf_8bd71cd5a9a81", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] photo_1537210249814_b9a10a161ae4 {
+            get {
+                object obj = ResourceManager.GetObject("photo_1537210249814_b9a10a161ae4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] very_cloudy_sky_sunrise_sun_footage_143380089_iconl1 {
+            get {
+                object obj = ResourceManager.GetObject("very_cloudy_sky_sunrise_sun_footage_143380089_iconl1", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

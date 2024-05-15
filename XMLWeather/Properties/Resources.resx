@@ -121,11 +121,20 @@
   <data name="01d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="01db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The-sun-shining.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="02d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\02d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="02db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plane-flying-across-partly-cloudy-sky-st-731095-png-images-pngio-mostly-cloudy-skies-png-1920_1080.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="03d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\03d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="03db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\very-cloudy-sky-sunrise-sun-footage-143380089_iconl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="04d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\04d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,20 +142,14 @@
   <data name="09d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\09d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="09db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dd93ba80-1a74-4559-b6cf-8bd71cd5a9a8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="10d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\10d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="11d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\11d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="13d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\13d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="50d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\50d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Rain3" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="10db" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlh8ABAAecAAAICGQoLEQQFIQ0NLhMUMxoaNh0dPwYKRQcOWQsRRgsSXBQZRhEZXhYeXxoeWBAZ
         dhUfdRskXx4rZhskdR4sfiAjQiYlQygqSCMmUCYsWi8yWDAwTjU3VD09VyQueikyZyo6aiU2eys1dzI6
@@ -3495,5 +3498,26 @@
         8mLCPOdJA3rSc0z1rkeO7GWne8b43jvCN77yOeN831EfPNjnvsHAK34no5/94CMUu8lnf23rX4oAqLcB
         FvBECLyHAhnoQAgC7BcTtJIFnYEdwcZtsIM+cgwIxyFCywgwcSdM4UG2lJIWauSFAQEAOw==
 </value>
+  </data>
+  <data name="11d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-469171699-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50d@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dd93ba80_1a74_4559_b6cf_8bd71cd5a9a81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dd93ba80-1a74-4559-b6cf-8bd71cd5a9a8.webp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="photo_1537210249814_b9a10a161ae4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1537210249814-b9a10a161ae4.avif;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="very_cloudy_sky_sunrise_sun_footage_143380089_iconl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\very-cloudy-sky-sunrise-sun-footage-143380089_iconl.webp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

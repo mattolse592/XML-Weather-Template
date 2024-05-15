@@ -16,6 +16,7 @@ namespace XMLWeather
         {
             InitializeComponent();
             SetBackgroundColor();
+            this.Focus();
         }
 
         private void SetBackgroundColor()
@@ -70,8 +71,13 @@ namespace XMLWeather
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
         }
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox1.ForeColor = Color.Black;
+        }
 
-        private void searchButton_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -87,14 +93,13 @@ namespace XMLWeather
 
                 CurrentScreen fs = new CurrentScreen();
                 f.Controls.Add(fs);
-            } catch
+            }
+            catch
             {
                 //if there is an error searching for the place
                 textBox1.ForeColor = Color.Red;
                 textBox1.Text = "Location not found";
             }
-
-
         }
     }
 }

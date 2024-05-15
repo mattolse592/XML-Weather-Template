@@ -111,30 +111,38 @@ namespace XMLWeather
             switch (Form1.days[0].icon)
             {
                 case "01d":
+                    this.BackgroundImage = Properties.Resources._01db;
                     this.BackColor = Color.Goldenrod;
                     break;
                 case "02d":
+                    this.BackgroundImage = Properties.Resources._02db;
                     this.BackColor = Color.Gold;
                     break;
                 case "03d":
+                    this.BackgroundImage = Properties.Resources._03db;
                     this.BackColor = Color.LightSteelBlue;
                     break;
                 case "04d":
+                    this.BackgroundImage = Properties.Resources._03db;
                     this.BackColor = Color.Gray;
                     break;
                 case "04n":
+                    this.BackgroundImage = Properties.Resources._03db;
                     this.BackColor = Color.Gray;
                     break;
                 case "09d":
+                    this.BackgroundImage = Properties.Resources._09db;
                     this.BackColor = Color.DarkGray;
                     break;
                 case "10d":
+                    this.BackgroundImage = Properties.Resources._10db;
                     this.BackColor = Color.DarkCyan;
                     break;
                 case "11d":
                     this.BackColor = Color.Goldenrod;
                     break;
                 case "13d":
+                    this.BackgroundImage = Properties.Resources._13db;
                     this.BackColor = Color.Gray;
                     break;
                 case "50d":

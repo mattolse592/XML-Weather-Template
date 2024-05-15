@@ -108,8 +108,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\very-cloudy-sky-sunrise-sun-footage-143380089_iconl.webp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\dd93ba80-1a74-4559-b6cf-8bd71cd5a9a8.webp" />
+    <None Include="Resources\photo-1537210249814-b9a10a161ae4.avif" />
     <None Include="Resources\Rain3.gif" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +141,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\13d%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd93ba80-1a74-4559-b6cf-8bd71cd5a9a8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-469171699-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane-flying-across-partly-cloudy-sky-st-731095-png-images-pngio-mostly-cloudy-skies-png-1920_1080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The-sun-shining.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\very-cloudy-sky-sunrise-sun-footage-143380089_iconl.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
